@@ -10,11 +10,11 @@ source reportfunctions.sh
 
 fullScript() {
     HostInfo
-    osreport
+    OperatingSystem
     CPU
     Memory
-    videoreport
-    diskreport
+    GraphicSettings
+    DiskDrives
     NetworkAdapter
 }
 
@@ -35,3 +35,4 @@ if [ "$(id -u)" -ne 0 ]; then
     handle_errors "Script must be run with root permissions. Use sudo or run as root."
     exit 1
 fi
+fullScript()
