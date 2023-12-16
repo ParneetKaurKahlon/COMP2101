@@ -12,10 +12,10 @@ fullScript() {
     HostInfo
     osreport
     CPU
-    ramreport
+    Memory
     videoreport
     diskreport
-    networkreport
+    NetworkAdapter
 }
 
 # Function to handle errors 
