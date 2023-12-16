@@ -9,9 +9,9 @@ source reportfunctions.sh
 
 
 fullScript() {
-    computerreport
+    HostInfo
     osreport
-    cpureport
+    CPU
     ramreport
     videoreport
     diskreport
